@@ -145,7 +145,7 @@ function saveProfile(){
 	if (imageCheck.checked){
 		accesibility["image"] = true;
 	}
-	// sets sorting type based on user selection
+	// sets sorting type based on users selection
 	accesibility["sortType"] = sortingSelect.value;
 
 	// Call with our specific diet list to update the product list.

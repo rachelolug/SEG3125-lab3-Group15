@@ -114,6 +114,7 @@ function updateProducts(diet, accesibility){
 
 	updatedProduct = Array.from(updatedProductSet);
 	
+	// sort products based on the users selection
 	if (accesibility["sortType"] == "lowToHigh"){
 		updatedProduct.sort((a, b) => a.price - b.price);
 	}
